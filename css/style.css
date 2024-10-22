@@ -2,8 +2,16 @@
 background-color: black;
 margin-top: 50px;
 margin-bottom: 50px;
+font-family: "Lato";
+text-transform: uppercase; /*maiusculo*/
 }
 #nameAndTitle{
 
-
+background-color: white;
+width: 400px ;
+margin: 0 auto;
+text-align: center;
+}
+#nameAndTitle h1,h2{
+    margin: 0px;
 }
