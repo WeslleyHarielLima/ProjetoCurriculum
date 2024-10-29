@@ -20,7 +20,18 @@ text-align: center;
     list-style-type: none;
     
 }
+
 #contact i {
     width: 30px;
     color: black;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 30% auto; /*divisão da tela em itens para um lado e item para o outro*/
+}
+#sidebar, #content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px; /*espço entre os itens da coluna*/
 }
