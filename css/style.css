@@ -29,9 +29,19 @@ text-align: center;
 #container{
     display: grid;
     grid-template-columns: 30% auto; /*divisão da tela em itens para um lado e item para o outro*/
+grid-column-gap: 20px;/*espço entre os itens dos cards*/
 }
 #sidebar, #content{
     display: flex;
     flex-direction: column;
     row-gap: 20px; /*espço entre os itens da coluna*/
+}
+.card h3{
+    font-family: "Lato";
+
+}
+.card{
+    border: 1px solid black;
+    border-radius: 15px;
+   padding: 20px;
 }
